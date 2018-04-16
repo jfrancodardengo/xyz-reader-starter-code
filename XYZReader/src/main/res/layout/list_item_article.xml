@@ -2,6 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_margin="8dp"
     android:clickable="true"
     android:focusable="true"
@@ -28,12 +29,12 @@
             android:layout_gravity="bottom"
             android:textSize="@dimen/detail_title_text_size"
             android:fontFamily="sans-serif-medium"
-            android:background="#66000000"
+            android:background="@color/background_title"
             android:gravity="center"
             android:maxLines="2"
-            android:padding="6dp"
-            android:text="TESTE"
-            android:textColor="#fff" />
+            android:padding="@dimen/padding_textview"
+            tools:text="TESTE"
+            android:textColor="@color/color_title" />
 
     </FrameLayout>
 
